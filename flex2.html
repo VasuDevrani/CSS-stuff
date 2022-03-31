@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flex Box</title>
+
+    <style>
+      * {
+        background-color: black;
+      }
+
+      .container {
+          display: flex;
+        border: 5px solid white;
+        height: 800px;
+        width: 100%;
+          justify-content: center;
+      }
+
+      .cont1 {
+        display: flex;
+        flex-direction: column;
+       margin-top: auto;
+       margin-bottom: auto;
+      }
+      .cont2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+
+      .cont1 div{
+         margin-bottom: 5px;
+         margin-right: 5px;
+      }
+      
+      .cont2 div{
+         margin-bottom: 5px;
+         margin-right: 5px;
+      }
+
+      .Box1 {
+        background-color: aqua;
+        height: 200px;
+        width: 200px;
+        border: 5px solid white;
+        /* margin-left: auto;
+    align-self:flex-end;
+    order: 1; */
+      }
+      .Box2 {
+        background-color: darkgreen;
+        height: 200px;
+        width: 200px;
+        border: 5px solid white;
+      }
+      .Box3 {
+        background-color: chocolate;
+        height: 200px;
+        width: 200px;
+        border: 5px solid white;
+      }
+      .Box4 {
+        background-color: cadetblue;
+        height: 200px;
+        width: 200px;
+        border: 5px solid white;
+      }
+      .Box5 {
+        background-color: bisque;
+        height: 200px;
+        width: 200px;
+        border: 5px solid white;
+      }
+      .Box6 {
+        background-color: blueviolet;
+        height: 200px;
+        width: 200px;
+        border: 5px solid white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cont1">
+        <div class="Box1">1</div>
+        <div class="Box2">2</div>
+        <div class="Box3">3</div>
+      </div>
+      <div class="cont2">
+        <div class="Box4">4</div>
+        <div class="Box5">5</div>
+        <div class="Box6">6</div>
+      </div>
+    </div>
+  </body>
+</html>
