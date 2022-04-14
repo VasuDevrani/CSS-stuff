@@ -1,0 +1,8 @@
+visibility:
+this defines the state of an object without consuming its space like hidden...
+NOTE= position:none; consumes space as well
+
+z-index:
+this only works in the case of relative, absolute, and other non static positions
+this defines the preference in case of overlapping objects 
+z-index: 2;
